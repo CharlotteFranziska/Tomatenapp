@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Cherry Honig",
+      "appearance": "gelb",
+      "taste": "Süß wie Honig",
+      "growthHeight": "150 -250cm",
+      "resistance": "normal",
+      "replant": "ja",
+      "imageUrl": "assets/tomatenBilder/Honig.jpeg",
+      "hidden": false
+    },
+    {
+      "name": "Cherry Bumblebee",
+      "appearance": "orange gelb",
+      "taste": "leichte Süße",
+      "growthHeight": "120-200 cm",
+      "resistance": "normal",
+      "replant": "nein",
+      "imageUrl": "assets/tomatenBilder/BumbleBee.jpeg",
+      "hidden": false
+    },
+    {
+      "name": "Pummelfee",
+      "appearance": "rot",
+      "taste": "säuerlich, leicht süß",
+      "growthHeight": "50-100 cm",
+      "resistance": "normal",
+      "replant": false,
+      "imageUrl": "assets/tomatenBilder/Pummelfee.jpeg",
+      "hidden": false
+    },
+    {
+      "name": "Märchenglanz",
+      "appearance": "dunkel lila",
+      "taste": "neutral, Eigengeschmack, leicht süß",
+      "growthHeight": "100-160 cm",
+      "resistance": "normal",
+      "replant": true,
+      "imageUrl": "assets/tomatenBilder/Märchenglanz.jpeg",
+      "hidden": false
+    },
+    {
+      "name": "Zuckertraube",
+      "appearance": "rot",
+      "taste": "süß",
+      "growthHeight": "100-200 cm",
+      "resistance": "normal",
+      "replant": true,
+      "imageUrl": "assets/tomatenBilder/Zuckertraube.jpeg",
+      "hidden": false
+    },
+    {
+      "name": "Martina",
+      "appearance": "rot",
+      "taste": "Tomatensäure, leicht süß",
+      "growthHeight": "120-160 cm",
+      "resistance": "normal",
+      "replant": false,
+      "imageUrl": "assets/tomatenBilder/Martina.jpeg",
+      "hidden": false
+    },
+    {
+      "name": "Infdigo Rose",
+      "appearance": "dunkel lila",
+      "taste": "Neutral, Eigengeschmack, leicht süß",
+      "growthHeight": "120-160 cm",
+      "resistance": "normal",
+      "replant": false,
+      "imageUrl": "assets/tomatenBilder/IndigoRose.jpeg",
+      "hidden": false
+    }
+  ]
+  

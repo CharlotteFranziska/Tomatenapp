@@ -1,0 +1,43 @@
+<div class="wrapper" id="weather_component">
+
+    <div id="main_weather_section">
+        <h2>Wetter in {{ weatherData.location.name }}</h2>
+        <div id="aktuelle_temp">aktuelle Temperatur: {{ weatherData.current.temp_c  }} °C</div>
+        <div id="weather_icon">
+            <img 
+                [src]="'assets/icons/' + weatherIcon + '.svg'" 
+                alt="weather-icon"
+                >
+        </div>
+    </div>
+
+    <div class="sections">
+        <div class="section first">
+            <div>Heute</div>
+            <!-- <img src="../../icons/sun-color-icon.svg" alt=""> -->
+            
+            <div class="icon">
+                <!-- <img  [src]="'../../icons/' + weatherIcon + '.svg'" alt=""> -->
+                <!-- <img src="../../icons/sun-color-icon.svg" alt="sun"> -->
+            </div>
+            <!--max Temperatur / min Temperatur -->
+            <div>{{ weatherData.forecast.forecastday[0].day.maxtemp_c }} / {{ weatherData.forecast.forecastday[0].day.mintemp_c }}</div> 
+        </div>
+
+        <div class="section second">
+            <div>Morgen</div>
+            <div class="icon">
+                <img src="" alt="">
+            </div>
+            <div>{{ weatherData.forecast.forecastday[1].day.maxtemp_c }} / {{ weatherData.forecast.forecastday[1].day.mintemp_c }}</div>
+        </div>
+
+        <div class="section third">
+            <div>Übermorgen</div>
+            <div class="icon">
+                <img src="" alt="">
+            </div>
+            <div>{{ weatherData.forecast.forecastday[2].day.maxtemp_c }} / {{ weatherData.forecast.forecastday[2].day.mintemp_c }}</div>   
+        </div>
+    </div>
+</div>

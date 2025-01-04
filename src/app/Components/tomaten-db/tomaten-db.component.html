@@ -1,0 +1,36 @@
+<h1>
+  Tomatendatenbank
+</h1>
+
+<div class="accordion" id="tomatenAccordion">
+  <div class="accordion-item" *ngFor="let tomaten of tomatenDaten; let i = index">
+    <h2 class="accordion-header">
+      <button class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              [attr.data-bs-target]="'#collapse' + i"
+              [attr.aria-expanded]="i === expandedIndex"
+              [attr.aria-controls]="'collapse' + i"
+              (click)="toggleAccordion(i)"> 
+        {{ tomaten.name }}
+      </button>
+    </h2>
+    <div [id]="'collapse' + i"
+         class="accordion-collapse collapse"
+         [class.show]="i === expandedIndex"
+         data-bs-parent="#tomatenAccordion">
+      <div class="accordion-body">
+        <div class="section left">
+          <img [src]="tomaten.imageUrl" alt="{{ tomaten.name }}" class="img-fluid mb-3" style="max-height: 200px;">
+        </div>
+        <div class="section right">
+          <p><strong>Aussehen:</strong> {{ tomaten.appearance }}</p>
+          <p><strong>Geschmack:</strong> {{ tomaten.taste }}</p>
+          <p><strong>Wuchshöhe:</strong> {{ tomaten.growthHeight }}</p>
+          <p><strong>Resistenz:</strong> {{ tomaten.resistance }}</p>
+          <p><strong>Wiederanbau:</strong> {{ tomaten.replant ? 'Ja' : 'Nein' }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

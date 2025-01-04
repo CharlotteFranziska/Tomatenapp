@@ -1,0 +1,45 @@
+.wrapper {
+    padding: 10vh 0 5vh 0;
+}
+
+#aktuelle_temp {
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_weather_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 40vh;
+    // background: linear-gradient(135deg, #1e90ff, #8a2be2); // Winter
+    background: linear-gradient(135deg, #ffe28c, #20a100); //ab Frühling
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    place-self: center;
+    color: ghostwhite;
+    #aktuelle_temp {
+        display: flex;
+        justify-content: center;
+    }
+    #weather_icon {
+        padding-top: 1vh;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 30.5vw 0 30.5vw;
+}

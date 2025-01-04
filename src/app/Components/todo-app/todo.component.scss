@@ -1,0 +1,26 @@
+.btn-spacing {
+    margin-right: 8px; /* Abstand nach rechts */
+  }
+
+  .btn-primary {
+    background-color: #048b04; /* Dunkelgrün */
+    border-color: #004d00;     /* Etwas dunkleres Grün für die Umrandung */
+    color: white;              /* Weißer Text für Kontrast */
+  }
+  
+  .btn-primary:hover {
+    background-color: #027602; /* Noch dunkleres Grün beim Hover */
+    border-color: #003300;
+  }
+  
+  .btn-secondary {
+    background-color: #efebeb; /* Helles Grau */
+    border-color: #b0b0b0;     /* Etwas dunkleres Grau für den Rand */
+    color: #333333;            /* Dunklerer Text für besseren Kontrast */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #b0b0b0; /* Noch etwas dunkleres Grau beim Hover */
+    border-color: #999999;
+  }
+  
